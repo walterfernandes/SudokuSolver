@@ -15,7 +15,6 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        // insert code here...
         printf("\nHello, SudokuSolver!\n");
         
         FileManager *fm = [FileManager new];
@@ -51,24 +50,6 @@ int main(int argc, const char * argv[])
     }
 
         
-//        FileManager *fm = [FileManager new];
-//        
-//        NSMutableArray *game = [NSMutableArray new];
-//        [fm openFile:@"./Jogo_03.txt" readLine:^(NSString *line) {
-//            NSMutableArray *arrayLinhe = [NSMutableArray new];
-//            
-//            for (NSString* item in [line componentsSeparatedByString:@" "])
-//                [arrayLinhe addObject:[NSNumber numberWithInt:[item intValue]]];
-//            
-//            [game addObject:arrayLinhe];
-//        }];
-//        
-//        SudokuSolver *solver = [SudokuSolver new];
-//        
-//        if ([solver resolveGameInstace:game])
-//            printf("Resolvido!\n");
-//
-//    }
     return 0;
 }
 
